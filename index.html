@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Homeyside84 — Horror Gaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        neon: "#ff8a00",
+                        neon2: "#ffb566"
+                    },
+                    fontFamily: {
+                        display: ["Orbitron", "sans-serif"],
+                        body: ["Inter", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Neon Effekt für Überschriften */
+        .neon {
+            color: #ff8a00;
+            text-shadow: 0 0 5px #ff8a00, 0 0 10px #ffb566, 0 0 20px #ffb566;
+        }
+        .neon-hover:hover {
+            color: #ffb566;
+            text-shadow: 0 0 5px #ff8a00, 0 0 15px #ff8a00, 0 0 30px #ffb566;
+        }
+    </style>
+</head>
+<body class="text-white font-body bg-[url('background.png')] bg-cover bg-top bg-no-repeat">
+<!-- HEADER -->
+<header class="relative bg-cover bg-center" style="background-image:url('hero.png')">
+    <div class="bg-black/70">
+        <div class="max-w-6xl mx-auto px-4">
+            <!-- NAV -->
+            <div class="flex justify-between items-center py-4">
+                <div class="hidden md:flex gap-6 text-2xl">
+                    <a href="#about" class="neon-hover rounded-lg border-2 border-neon neon-hover px-4 py-2">Über mich</a>
+                    <a href="#media" class="neon-hover rounded-lg border-2 border-neon neon-hover px-4 py-2">Media</a>
+                </div>
+                <div class="hidden md:flex gap-6 text-2xl">
+                    <a href="#social" class="neon-hover rounded-lg border-2 border-neon neon-hover px-4 py-2">Social Media</a>
+                    <a href="#contact" class="neon-hover rounded-lg border-2 border-neon neon-hover px-4 py-2">Kontakt</a>
+                </div>
+
+                <!-- Burger (mobil) -->
+                <details class="md:hidden">
+                    <summary class="cursor-pointer neon-hover">☰</summary>
+                    <nav class="absolute left-4 mt-2 bg-black/90 rounded-lg p-4 flex flex-col gap-3">
+                        <a href="#about" class="neon-hover">Über mich</a>
+                        <a href="#media" class="neon-hover">Media</a>
+                        <a href="#social" class="neon-hover">Social Media</a>
+                        <a href="#contact" class="neon-hover">Kontakt</a>
+                    </nav>
+                </details>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="flex flex-col md:flex-row items-center gap-8 py-12">
+                <div class="
+                relative rounded-full border-4 border-orange-500 p-20 shadow-lg shadow-orange-500/50
+                    bg-[url('image4.jpg')]
+                    bg-cover bg-top mx-auto"
+                >
+                </div>
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-display neon">Homeyside84</h1>
+                    <p class="mt-4 text-gray-300">
+                        Hallo — ich bin <strong>Homeyside84</strong>, Jahrgang <strong>1984</strong>
+                        und seit meiner Kindheit ein leidenschaftlicher Resident-Evil-Fan. Ich kenne und liebe jeden Teil —
+                        von den Klassikern bis zu den modernen Remakes. Neben Resident Evil findest du bei mir auch
+                        <strong>Silent Hill</strong>, <strong>Alone in the Dark</strong>, <strong>Fatal Frame</strong>,
+                        <strong>Clock Tower</strong> und <strong>Dead Space</strong>.
+                        Ob Streams, Guides oder Lore-Diskussionen — hier dreht sich alles um Horror!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- MAIN -->
+<main class="bg-black/30 backdrop-saturate-50">
+    <div class="max-w-6xl mx-auto px-4 space-y-24 py-12 ">
+        <!-- ABOUT -->
+        <section id="about" class="bg-black/40 p-4">
+            <h2 class="text-3xl font-display neon">Über mich</h2>
+            <p class="mt-4 text-gray-300">
+                Hallo und herzlich willkommen! Mein Name ist Homeyside84, und wie der Name schon andeutet, wurde ich im Jahr 1984 geboren. Seit meiner Kindheit begleitet mich die Welt der Videospiele, doch schon früh hat sich eine ganz bestimmte Leidenschaft herauskristallisiert: Survival Horror. Den ersten Kontakt mit Resident Evil hatte ich damals auf der PlayStation, und seitdem bin ich der Reihe treu geblieben. Von den pixeligen Anfängen mit blockiger Steuerung bis hin zu den modernen Remakes kenne und liebe ich jeden einzelnen Teil. Ich habe unzählige Stunden in den Spencer-Mansion-Korridoren, den dunklen Straßen von Raccoon City und den verlassenen Dörfern Spaniens verbracht – und jeder Moment hat sich tief eingebrannt.
+
+                Doch bei mir dreht sich nicht alles nur um Resident Evil. Auch andere Klassiker haben mein Herz erobert. Silent Hill mit seiner bedrückenden Atmosphäre und seinen psychologischen Abgründen, Alone in the Dark als Pionier des Genres, die unheimliche Kameraperspektive von Fatal Frame oder die spannungsgeladenen Fluchtmomente in Clock Tower – sie alle gehören zu meiner Sammlung. Natürlich dürfen auch moderne Vertreter wie Dead Space oder The Evil Within nicht fehlen, denn sie führen die Tradition des klassischen Survival Horrors in die Gegenwart.
+
+                Auf meinem Kanal und hier auf dieser Seite geht es also um mehr als nur Spiele. Es geht um das Gefühl, wenn man den Atem anhält, weil man weiß: Hinter der nächsten Tür lauert etwas. Es geht um Erinnerungen, Diskussionen und die Liebe zum Detail, die nur wahre Horrorfans teilen. Wenn du dich in dieser Welt genauso zuhause fühlst wie ich, dann bist du hier genau richtig.
+            </p>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="bg-black/40 p-4">
+            <h2 class="text-3xl font-display neon">Media</h2>
+            <div class="mt-6 aspect-video rounded-lg overflow-hidden shadow-lg">
+                <iframe class="w-full h-full"
+                        src="https://www.youtube.com/embed?listType=user_uploads&list=homeyside84"
+                        title="YouTube Kanal von Homeyside84"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </div>
+            <p class="mt-4 text-gray-300">
+                Im Bereich Media dreht sich alles um meine Inhalte, die ich regelmäßig auf YouTube veröffentliche. Seit ich angefangen habe, Videos zu produzieren, war mein Ziel immer, die Atmosphäre des Survival Horrors einzufangen und sie so aufzubereiten, dass Zuschauer nicht nur unterhalten werden, sondern auch etwas mitnehmen können.
+
+                Meine Videos decken eine große Bandbreite ab: von klassischen Let’s Plays, die den puren Nervenkitzel transportieren, über Guides und Tutorials, die Einsteigern den Weg in die Welt des Horrors erleichtern, bis hin zu analytischen Videos, in denen ich tief in die Lore eintauche und Zusammenhänge zwischen Charakteren, Orten und Ereignissen herstelle. Viele meiner Zuschauer schätzen genau diesen Mix aus Unterhaltung und Information.
+
+                Besonders stolz bin ich darauf, dass mein Kanal immer das neueste Video anzeigt – so bist du sofort im Bilde, wenn es etwas Neues von mir gibt. Egal ob ich gerade einen Run durch Resident Evil 2 Remake wage, über Silent Hill 2 philosophiere oder mich in ein modernes Indie-Horrorspiel wie Visage oder Conscript stürze: Der Gedanke, diese Erfahrungen mit meiner Community zu teilen, motiviert mich immer wieder.
+
+                Die ersten hundert Worte der Videobeschreibung geben dir außerdem einen Einblick, worum es im Clip geht – so kannst du schnell entscheiden, ob es ein Guide, eine Review oder ein atmosphärisches Let’s Play ist. Für mich ist YouTube nicht nur eine Plattform, sondern eine Bühne, auf der wir gemeinsam unsere Leidenschaft für Horror feiern. Also schnapp dir Popcorn, mach das Licht aus, und tauch mit mir in die Welt des Schreckens ein!
+            </p>
+        </section>
+
+        <!-- SOCIAL -->
+        <section id="social" class="bg-black/40 p-4">
+            <h2 class="text-3xl font-display neon">Social Media</h2>
+            <p class="mt-4 text-gray-300">
+                Horror lebt von Gemeinschaft. Was wäre ein Schreckmoment ohne jemanden, mit dem man danach gemeinsam lachen oder sich austauschen kann? Genau deshalb findest du mich nicht nur auf YouTube, sondern auch auf vielen verschiedenen Social-Media-Plattformen.
+
+                Auf Twitch kannst du mir live über die Schulter schauen, wenn ich mich durch dunkle Flure taste, neue Horrorspiele ausprobiere oder mit der Community gemeinsam über die besten Resident-Evil-Bosse diskutiere. Instagram und TikTok nutze ich, um kurze Highlights, spannende Clips und kleine persönliche Einblicke zu teilen. Auf Twitter (X), Threads und Bluesky halte ich dich über neue Projekte, spontane Streams oder meine Meinung zu aktuellen Horror-News auf dem Laufenden. Und natürlich gibt es auch noch die Klassiker wie Facebook und meinen YouTube-Community-Tab, wo wir über kommende Videos abstimmen oder einfach über Horror plaudern.
+
+                Die Links sind übersichtlich in zwei Spalten angeordnet, damit du schnell das findest, was dir am wichtigsten ist. Ob du lieber scrollst, streamst oder kommentierst – es gibt viele Wege, wie wir in Kontakt bleiben können.
+
+                Außerdem freue ich mich riesig über jede Form der Unterstützung. Mit Plattformen wie Ko-fi oder Patreon kannst du dazu beitragen, dass ich meine Inhalte auf das nächste Level hebe. Dein Support fließt direkt in bessere Technik, tiefere Analysen und noch mehr Horror-Content. Aber selbst wenn du "nur" mit einem Like, Kommentar oder einer geteilten Story dabei bist: Du bist ein wichtiger Teil der Community. Denn am Ende geht es um uns alle, die diese besondere Liebe zum Horror teilen.
+            </p>
+            <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Twitch</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">YouTube</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Instagram</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">TikTok</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Facebook</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Twitter / X</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Bluesky</a>
+                <a href="#" class="block p-4 rounded-lg bg-black/75 neon-hover">Threads</a>
+            </div>
+
+            <!-- Support -->
+            <div class="mt-8">
+                <h3 class="text-2xl font-display neon">Unterstützen</h3>
+                <p class="mt-2 text-gray-300">
+                    Jeder Support hilft: ob Ko-fi oder Patreon — mit eurer Hilfe kann ich bessere Streams, längere Recherchen
+                    und professionellere Videos realisieren.
+                </p>
+                <div class="mt-4 flex gap-4">
+                    <a href="#" class="px-4 py-2 rounded-lg border-2 border-neon neon-hover">Ko-fi</a>
+                    <a href="#" class="px-4 py-2 rounded-lg border-2 border-neon neon-hover">Patreon</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="bg-black/40 p-4">
+            <h2 class="text-3xl font-display neon">Kontakt</h2>
+            <p class="mt-4 text-gray-300">
+                Wenn du mit mir in Kontakt treten möchtest, hast du hier die Möglichkeit dazu. Der Kontakt-Bereich richtet sich in erster Linie an Kooperationspartner, Publisher und andere Content-Creator, die Interesse daran haben, gemeinsam Projekte umzusetzen. Egal ob es sich um Produkttests, Spiele-Reviews, Interviews oder gemeinsame Streams handelt – ich bin immer offen für spannende Ideen und kreative Zusammenarbeit.
+
+                Natürlich können sich auch Fans und Mitglieder der Community jederzeit melden. Vielleicht hast du eine interessante Theorie zu einem Spiel, möchtest Feedback zu meinen Videos geben oder einfach nur deine persönliche Resident-Evil-Geschichte mit mir teilen – all das ist willkommen. Für mich ist der Austausch mit meiner Community ein zentraler Bestandteil dessen, was ich tue.
+
+                Um Spam-Bots fernzuhalten, verwende ich hier eine leicht veränderte Schreibweise meiner E-Mail-Adresse:
+                homeyside84 [at] example [dot] com
+                Ersetze [at] einfach mit einem "@" und [dot] mit einem "." – und schon kannst du mir direkt schreiben.
+
+                Ich versuche, auf alle Anfragen zeitnah zu reagieren, aber bitte hab Verständnis, wenn es manchmal ein wenig dauert. Da ich den Kanal neben anderen Verpflichtungen betreibe, kann es sein, dass Antworten nicht sofort kommen. Aber sei dir sicher: Jede Nachricht wird gelesen und geschätzt.
+
+                Wenn du geschäftlich Kontakt aufnehmen willst, erwähne bitte direkt im Betreff, worum es geht (z. B. "Kooperation", "Interview-Anfrage" oder "Feedback"). So finde ich deine Mail schneller und kann effizienter reagieren. Ich freue mich darauf, von dir zu hören – egal ob geschäftlich oder privat!
+            </p>
+            <p class="mt-2 font-bold neon">
+                homeyside84 [at] example [dot] com
+            </p>
+        </section>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-500">
+    &copy; <span id="year"></span> Homeyside84 — All rights reserved.
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
